@@ -1,12 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+    <title>Test Project By Shital</title>
 </head>
+
 <body>
-   <h1>Hola Git</h1> 
+    <nav class="navbar background h-nav-resp">
+        <div class="logo " >
+            <h2>
+                <span>S</span>eeya's<span>C</span>reation
+            </h2>
+        </div>
+        <div class="mid-nav ">
+            <ul class="nav_list v-class-resp ">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn ">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+
+    <section class="background firstsection">
+        <div class="box-main" id="home">
+            <div class="firsthalf">
+                <p class="text-big">Start Career As Front End Developer</p>
+                <p class="text-small">  Do you want to become front end developer?
+                    Lets go with which programming language need to learn,how to learn them anf from where to learn.
+                </p>
+                <button class="btn btn-sm" onclick="location.href='https://www.youtube.com/watch?v=Vq-bgH0yq6Y'">Watch Video</button>
+            </div>
+            <div class="secondhalf">
+                <img src="./img/fed.jpeg" alt="Front End Developer">
+            </div>
+        </div>
+    </section>
+    <div class="fdiv ">
+     <div class="sdiv">
+     <h1 class="text-center ">Guidelines How to become Front End Developer? </h1>
+      <div class="writer">
+        <div >
+         <img src="./img/seeya.jpg">
+        </div>
+        <div class="wr">
+            <h2>Shital Hole</h2>
+            <p>posted by October 15</p>
+        </div>
+     </div>
+
+     <section class="section"  id="about">
+
+        <div class="paras">
+
+            <p class="sectiontag text-big">HTML: Hyper Text Markup Language</p>
+            <p class="sectionsutag text-small">Html is first programming language required to design your website.
+                It actually use to structure your website.
+                commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can
+                read HTML files and render them into visible or audible web pages. HTML describes the structure of a
+                website semantically along with cues for presentation, making it a markup language, rather than a
+                programming language.
+            </p>
+        </div>
+        <div class="Thumbnail">
+            <img src="./img/html1.jpg" alt="laptop" class="imgFluid">
+        </div>
+     </section>
+
+
+     <section class="section section-left" >
+        <div class="paras">
+            <p class="sectiontag text-big">CSS: Csacading Style Sheet</p>
+            <p class="sectionsutag text-small"> Cascading Style Sheets (CSS) is a style sheet language used for
+                describing the look and formatting of a document written in a markup language. Although most often used
+                to change the style of web pages and user interfaces written in HTML and XHTML, the language can be
+                applied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript,
+                CSS is a cornerstone technology used by most websites to create visually engaging webpages, user
+                interfaces for web applications, and user interfaces for many mobile applications.
+                Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a
+                document written in a markup language such as HTML or XML . CSS is a cornerstone technology of the World
+                Wide Web, alongside HTML and JavaScript.
+
+                CSS is designed to enable the separation of presentation and content, including layout, colors, and
+                fonts. This separation can improve content accessibility; provide more flexibility and control in the
+                specification of presentation characteristics; enable multiple web pages to share formatting by
+                specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the
+                structural content; and enable the .css file to be cached to improve the page load speed between the
+                pages that share the file and its formatting.
+            </p>
+        </div>
+        <div class="Thumbnail">
+            <img src="./img/css.jpg" alt="laptop" class="imgFluid">
+        </div>
+     </section>
+
+     <section class="section" id="blog">
+        <div class="paras">
+            <p class="sectiontag text-big">JavaScript</p>
+            <p class="sectionsutag text-small"> JavaScript is used by almost every website on the internet, so I
+                embarked on a quest to find the best active JavaScript blogs for programmers. Each of these sites
+                demonstrates technical expertise, is relatively easy to comprehend, publishes content consistently, and
+                has stood the test of time.
+                During this process, I used a consistent approach to analyze and compare common qualities (or
+                deficiencies) in each blog. I looked at the depth of each blog’s technical content and the usefulness of
+                that content. I read a few posts from start to finish to get a sense of the writing quality and
+                comprehensibility. I looked at how consistently each web dev blog publishes new content, and I did some
+                digging to learn how long each site has been around. Most of these blogs are similar in that they offer
+                in-depth articles on other areas of web development, making them ideal blogs for programmers.
+            </p>
+        </div>
+        <div class="Thumbnail">
+            <img src="./img/js.jpg" alt="laptop" class="imgFluid">
+        </div>
+     </section>
+    </div>
+    <div class="tdiv">
+        <h3>Related Articles</h3>
+        <ul>
+            <li>How to Become Front End Developer-Front end and Web Dev Skill</li><br>
+            <li>How to Become a Front End Developer - Skills, Roles, Salary Explained</li><br>
+            <li>Exactly What Skills You Need To Know To Become A Front End Developer In 2022</li>
+        </ul>
+    </div>
+</div>
+<footer class="background" >
+    <p class="text-footer ">copyright &copy; 2022.All rights reserved.</p>
+</footer>
+
+<script src="resp.js"></script>
 </body>
+
 </html>
